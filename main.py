@@ -34,3 +34,22 @@ if __name__ == "__main__":
 
   - Place the module.py in one of the installation-dependent folders.
   """
+
+  # Modifying the Python module search path at runtime
+
+  """
+  Python allows you to modify the module search path at runtime by modifying the sys.path variable.
+  This allows you to store module files in any folder of your choice.
+
+  Since the sys.path is a list, you can append a search-path to it.
+
+  The following examples adds the d:\module to the search path and use the recruitment module stored in this folder:
+
+  import sys
+
+  sys.path.append("d:\modules)
+
+  import recruitment
+
+  recruitment.hire()
+  """
